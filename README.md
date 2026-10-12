@@ -4,7 +4,9 @@ Site institucional **fictício e demonstrativo**, inspirado em uma possível cl�
 
 ## 🌐 Projeto online
 
-**Link do GitHub Pages:** adicionar após a publicação.
+Acesse o site publicado:
+
+https://jefersonalvesrs.github.io/clinica-veterinaria-fulcher/
 
 ## ✨ Funcionalidades
 
@@ -13,7 +15,7 @@ Site institucional **fictício e demonstrativo**, inspirado em uma possível cl�
 - Apresentação da clínica, serviços, valores e perguntas frequentes
 - Formulário demonstrativo que prepara uma mensagem para WhatsApp
 - Seção de contato e botão para voltar ao topo
-- Fotografias de referência carregadas do Unsplash (requer conexão à internet)
+- Fotografias armazenadas localmente no projeto
 - Sem backend, pagamentos ou armazenamento de dados
 
 ## 🛠️ Tecnologias
@@ -32,28 +34,57 @@ clinica-veterinaria-fulcher/
 ├── README.md
 ├── assets/
 │   └── images/
-│       ├── favicon.svg
+│       ├── hero-pug.jpg
+│       ├── cachorro-brincando.jpg
+│       ├── consulta.jpg
+│       ├── vacinacao.jpg
+│       ├── exames.jpg
 │       └── favicon.svg
 └── imagens/
-    └── (adicionar capturas de tela depois)
+    ├── screenshot-home.jpg
+    ├── screenshot-mobile.jpg
+    ├── screenshot-sobre.jpg
+    └── screenshot-servicos.jpg
 ```
 
 ## ▶️ Como executar
 
-Abra `index.html` no navegador ou use a extensão Live Server no VS Code.
+Abra o arquivo `index.html` no navegador ou utilize a extensão Live Server no VS Code.
 
 ## 💬 WhatsApp
 
-O formulário é demonstrativo e não abre o WhatsApp enquanto `WHATSAPP_NUMBER` estiver vazio. Para ativar, configure um número real e autorizado em `script.js`, com DDI, DDD e número, apenas dígitos.
+O formulário é demonstrativo e não abre o WhatsApp enquanto `WHATSAPP_NUMBER` estiver vazio.
+
+Para ativar a funcionalidade, configure um número real e autorizado no arquivo `script.js`, utilizando DDI, DDD e número, apenas com dígitos.
 
 ## 🖼️ Fotografias
 
-As fotografias são carregadas por URLs do Unsplash. Se desejar disponibilizar todas localmente, baixe imagens com licença adequada para `assets/images` e atualize os caminhos no `index.html`.
+O site utiliza fotografias ilustrativas de animais e atendimentos veterinários, armazenadas na pasta `assets/images`.
+
+As fotografias são utilizadas apenas para fins demonstrativos e não representam instalações, profissionais ou atendimentos reais da Clínica Fulcher.
 
 ## 📸 Capturas de tela
 
-As capturas serão adicionadas à pasta `imagens` após a revisão e publicação do site.
+### Página inicial
+
+![Página inicial](imagens/screenshot-home.jpg)
+
+### Versão mobile
+
+![Versão mobile](imagens/screenshot-mobile.jpg)
+
+### Sobre a clínica
+
+![Sobre a clínica](imagens/screenshot-sobre.jpg)
+
+### Serviços veterinários
+
+![Serviços veterinários](imagens/screenshot-servicos.jpg)
 
 ## ⚠️ Aviso
 
-**Projeto conceitual.** A clínica, os serviços, a equipe e o atendimento são fictícios. Alexander Alves Fulcher é mencionado apenas como inspiração para um possível projeto futuro, sem afirmação de habilitação ou exercício profissional. As fotografias são referências visuais externas (Unsplash) e não retratam instalações ou atendimentos reais. As imagens exigem conexão à internet para carregar. Não há atividade comercial real.
+**Projeto conceitual.** A Clínica Veterinária Fulcher, seus serviços, sua equipe e seu atendimento são fictícios.
+
+Alexander Alves Fulcher é mencionado apenas como inspiração para um possível projeto futuro, sem afirmação de habilitação ou exercício profissional.
+
+As fotografias são referências visuais e não retratam instalações ou atendimentos reais da clínica. Não há atividade comercial real.
